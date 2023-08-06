@@ -1,5 +1,5 @@
 <?php
-//El controlador funciona interviniendo entre mis vistas y mis modelos
+// EL controllador funciona interviniendo entre mis vistas y mis modelos
 class BootcampController{
 
     public $bootcamp;
@@ -12,8 +12,8 @@ class BootcampController{
         // Controlo modelos
         $bootcamps = $this->bootcamp->get_bootcamps();
 
-        //Controlar las vistas
-        include '/views/bootcampView.php';
+        // Controlar las vistas
+        include 'views/bootcampView.php';
     }
 }
 
